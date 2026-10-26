@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #e5dfd3;
+    font-family: Arial, sans-serif;
+}
+
+/* Header & Logo Section Styling */
+.header {
+    background-color: black;
+    border-bottom: 1px solid #1a1510;
+}
+
+.logo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 150px;
+    width: 250px;
+}
+
+.quote {
+    color: #A27C4D;
+    text-transform: capitalize;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+/* Flex Grid Wrapper for Side-by-Side View */
+.main-container {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+/* Left Side Dynamic Navigation Bar Styling */
+.nav-bar {
+    background-color: black;
+    padding: 50px 30px;
+    width: 180px;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Br tags badilaga neat gaps */
+    text-align: center;
+    border-right: 1px solid #1a1510;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #9D7748;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Icons & Hover Effects */
+.fa-solid, .fa-sharp {
+    color: #9D7748;
+    transition: color 0.3s ease;
+}
+
+.fa-solid:hover, .fa-sharp:hover, .nav-item a:hover {
+    color: skyblue;
+}
+
+/* Right Side Content Container (Empty Black Space Fix) */
+.content-area {
+    flex: 1;
+    display: flex;
+    padding: 50px;
+    gap: 60px;
+}
+
+.story-text {
+    flex: 2;
+}
+
+.story-text h2 {
+    font-size: 28px;
+    color: #c9a054;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.story-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #bfae99;
+    margin-bottom: 20px;
+}
+
+/* Statistics Dynamic Layout Counter */
+.story-stats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    border-left: 1px solid #2a2218;
+    padding-left: 40px;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-number {
+    font-size: 45px;
+    color: #c9a054;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.log{
+   width: 300px;
+    
+
+}

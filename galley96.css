@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.logo img{
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    gap: 50px;;
+    align-items: center;
+
+}
+.quote {
+    color:#A27C4D;
+    text-transform: capitalize;
+    font-size: xx-large;
+    padding-left: 150px;
+}
+
+.header {
+    background-color: black;
+}
+
+.nav-bar  {
+    background-color: black;
+    padding: 20px;   
+}
+
+.home{
+    padding-bottom: 10px;
+    height: 15%;
+    padding-top: 30px;
+    
+}
+.gallery{
+    padding-bottom: 10px;
+    height: 15%;
+    padding-top: 30px;
+    
+}
+.safari{
+    padding-bottom: 10px;
+    height: 15%;
+    padding-top: 30px;
+    
+}
+.about{
+    padding-bottom: 10px;
+    height: 15%;
+    padding-top: 30px;
+    
+}
+.contact{
+    padding-bottom: 10px;
+    height: 15%;
+    padding-top: 30px;
+    
+}
+.fa-solidfa-house {
+    height: 55%;
+    width: 55%;
+}
+
+
+.gallery img{
+    height: 3%;
+    width: 3%;
+}
+.safari img{
+    height: 3%;
+    width: 3%;
+}
+.about img{
+    height: 3%;
+    width: 3%;
+}
+.contact img{
+    height: 3%;
+    width: 3%;
+}
+.home1{
+    text-decoration: none;
+    color: #9D7748;
+    
+}
+.gallery1{
+    text-decoration: none;
+    color: #9D7748;
+}
+.safari1{
+    text-decoration: none;
+    color: #9D7748;
+}
+.about1{
+    text-decoration: none;
+    color: #9D7748;
+}
+.contact1{
+    text-decoration: none;
+    color: #9D7748;
+}
+
+
+
+.contact1{
+    margin-top: 20px;
+    
+}
+.fa-sharp:hover{
+    color: skyblue;
+}
+
+.fa-solid{
+    color:#9D7748;
+}
+.fa-solid:hover{
+    color: skyblue;
+}
+
+
+.kf{
+    width: max-content;
+    height: max-content;
+}
+.home,
+.gallery,
+.safari,
+.about,
+.contact{
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.card{
+    margin-top: -650px;
+    margin-left: 280px;
+}
+.bottom-card{
+    margin-top: 100px;
+    margin-left: 280px
+
+}
+.card,
+.bottom-card{
+    display: flex;
+    gap: 10px;
+    margin-left: 270px;
+    gap: 100px;
+
+}
+
+
+.tiger,
+.kf,
+.ladak,
+.falls{
+    width: 500px;  
+    height: 250px;
+    border-radius: 20px;
+}
+.tiger,
+.kf,
+.ladak,
+.falls{
+    transition: all 0.3s ease;
+}
+
+.tiger:hover,
+.kf:hover,
+.ladak:hover,
+.falls:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px #9D7748(0,0,0,0.4);
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+
+
+
+
+

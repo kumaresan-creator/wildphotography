@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+}
+body{
+    background-color: black;
+}
+
+.logo {
+    position: fixed;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    background-color: black;
+}
+
+
+.nav-bar {
+    background-color: black;
+    padding: 10px;
+    
+    padding-bottom: 50px;
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    z-index: 1000;
+    width: 200px;
+}
+
+.home,
+.gallery,
+.safari,
+.about,
+.contact {
+    padding-bottom: 30px;
+    height: 30%;
+    padding-top: 50px;
+}
+
+.home1,
+.gallery1,
+.safari1,
+.about1,
+.contact1 {
+    text-decoration: none;
+    color:#A27C4D;
+}
+
+.contact1 {
+    margin-top: 20px;
+}
+
+.fa-sharp:hover,
+.fa-solid:hover {
+    color: skyblue;
+}
+
+.fa-solid {
+    color: #A27C4D;
+}
+
+.logo,
+.header {
+    z-index: 9999;
+    background: black;
+}
+
+.quote {
+    padding-left: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #A27C4D;
+}
+
+
+.animals {
+    margin-left: 280px;
+    padding-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+
+.deer {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+}
+
+.deer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+    transition: transform 0.5s ease;
+}
+
+.deer div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+}
+
+.deer:hover div {
+    opacity: 1;
+}
+
+.deer:hover img {
+    transform: scale(1.1);
+}
+
+.deer div h1,
+.deer div p {
+    color: white;
+    margin: 10px 0;
+}
+
+
+
