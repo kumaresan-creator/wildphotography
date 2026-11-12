@@ -45,12 +45,13 @@ body {
 /* Left Side Dynamic Navigation Bar Styling */
 .nav-bar {
     background-color: black;
-    padding: 50px 30px;
+    padding: 50px;
+    padding-right: 150px;
     width: 180px;
     min-width: 180px;
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Br tags badilaga neat gaps */
+    gap: 45px; /* Br tags badilaga neat gaps */
     text-align: center;
     border-right: 1px solid #1a1510;
 }

@@ -4,34 +4,38 @@
 }
 
 
-.logo img{
+.logo img {
     height: 150px;
     width: 250px;
     padding: 20px;
-    
+
 
 }
-.logo{
+
+.logo {
     display: flex;
     position: fixed;
-    gap: 50px;;
+    gap: 50px;
+    ;
     align-items: center;
 
 }
-.quote{
+
+.quote {
     color: #9D7748;
     padding-left: 50px;
 }
-    
 
-    
+
+
 
 
 .header {
     background-color: black;
 }
-.nav-bar  {
-     position: fixed;
+
+.nav-bar {
+    position: fixed;
     padding: 20px;
     margin-top: 150px;
     margin-right: 25px;
@@ -39,150 +43,175 @@
 
 
 
-    
+
 }
 
-.home{
+.home {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 50px;
-    
+
 }
-.gallery{
+
+.gallery {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 50px;
-    
+
 }
-.safari{
+
+.safari {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 50px;
-    
+
 }
-.about{
+
+.about {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 50px;
-    
+
 }
-.contact{
+
+.contact {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 50px;
-    
+
 }
+
 .fa-solidfa-house {
     height: 55%;
     width: 55%;
 }
 
 
-.gallery img{
+.gallery img {
     height: 3%;
     width: 3%;
 }
-.safari img{
+
+.safari img {
     height: 3%;
     width: 3%;
 }
-.about img{
+
+.about img {
     height: 3%;
     width: 3%;
 }
-.contact img{
+
+.contact img {
     height: 3%;
     width: 3%;
 }
-.home1{
+
+.home1 {
     text-decoration: none;
-    color:#9D7748 ;
-    
+    color: #9D7748;
+
 }
-.gallery1{
+
+.gallery1 {
     text-decoration: none;
     color: #9D7748;
 }
-.safari1{
+
+.safari1 {
     text-decoration: none;
     color: #9D7748;
 }
-.about1{
+
+.about1 {
     text-decoration: none;
     color: #9D7748;
 }
-.contact1{
+
+.contact1 {
     text-decoration: none;
     color: #9D7748;
 }
-.center img{
+
+.center img {
     height: 100%;
     width: 100%;
     float: right;
 
 }
-.contact1{
+
+.contact1 {
     margin-top: 20px;
-    
+
 }
-.fa-sharp:hover{
+
+.fa-sharp:hover {
     color: skyblue;
 }
 
-.fa-solid{
-    color:#9D7748;
+.fa-solid {
+    color: #9D7748;
 }
-.fa-solid:hover{
+
+.fa-solid:hover {
     color: skyblue;
 }
-.nav-bar{
+
+.nav-bar {
     padding-bottom: 50px;
 }
-.animals{
+
+.animals {
     margin-top: -600px;
     margin-left: 230px;
     display: grid;
-    grid-template-columns:1fr ;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
-.animals img{
+
+.animals img {
     width: 50%;
     max-width: 500px;
     height: 300px;
     object-fit: cover;
 }
-.paratext{
+
+.paratext {
     color: white;
 }
 
-.paratext span{
-    color:#9D7748;
+.paratext span {
+    color: #9D7748;
     font-size: larger;
     font-weight: bolder;
 }
-body{
+
+body {
     background-color: black;
     height: 100vh;
     overflow: hidden;
 }
-.para{
+
+.para {
     color: #9D7748;
 }
-.munnar{
-     margin-top: 0px;
-    width: 90%; 
-    margin-left: 0px; 
+
+.munnar {
+    margin-top: 0px;
+    width: 90%;
+    margin-left: 0px;
     position: relative;
     z-index: 1;
 }
-.munnar img{
+
+.munnar img {
     width: 80%;
     height: auto;
     max-height: 600px;
-    object-fit: cover;
     margin-bottom: 20px
 }
-.story{
+
+.story {
     position: fixed;
     top: 170px;
     left: 280px;
@@ -191,6 +220,7 @@ body{
     overflow-y: auto;
     padding-right: 40px;
 }
+
 .toggle-trigger {
     display: none;
 }
@@ -198,7 +228,6 @@ body{
 
 .image-label {
     cursor: pointer;
-    position: relative;
     display: block;
 }
 
@@ -224,7 +253,7 @@ body{
     margin-top: 20px;
 }
 
-.toggle-trigger:checked ~ .hidden-content {
+.toggle-trigger:checked~.hidden-content {
     display: block;
 }
 
@@ -235,7 +264,7 @@ body{
 }
 
 
-.image-label-2{
+.image-label-2 {
     cursor: pointer;
     position: relative;
     display: block;
@@ -263,7 +292,7 @@ body{
     margin-top: 20px;
 }
 
-.toggle-trigger-2:checked ~ .hidden-content-2 {
+.toggle-trigger-2:checked~.hidden-content-2 {
     display: block;
 }
 
@@ -274,7 +303,7 @@ body{
 }
 
 
-.image-label-3{
+.image-label-3 {
     cursor: pointer;
     position: relative;
     display: block;
@@ -302,7 +331,7 @@ body{
     margin-top: 20px;
 }
 
-.toggle-trigger-3:checked ~ .hidden-content-3 {
+.toggle-trigger-3:checked~.hidden-content-3 {
     display: block;
 }
 
@@ -313,7 +342,7 @@ body{
 }
 
 
-.image-label-4{
+.image-label-4 {
     cursor: pointer;
     position: relative;
     display: block;
@@ -341,6 +370,6 @@ body{
     margin-top: 20px;
 }
 
-.toggle-trigger-4:checked ~ .hidden-content-4 {
+.toggle-trigger-4:checked~.hidden-content-4 {
     display: block;
 }

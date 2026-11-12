@@ -1,4 +1,3 @@
-/* General Layout Reset */
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +10,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header & Logo Section Styling */
 .header {
     background-color: black;
     border-bottom: 1px solid #1a1510;
@@ -36,22 +34,23 @@ body {
     padding-left: 20px;
 }
 
-/* Flex Grid Wrapper for Side-by-Side View */
+
 .main-container {
     display: flex;
     width: 100%;
     align-items: flex-start;
 }
 
-/* Left Side Dynamic Navigation Bar Styling */
+
 .nav-bar {
     background-color: black;
-    padding: 50px 30px;
+    padding: 50px;
+    padding-right: 150px;
     width: 180px;
     min-width: 180px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 50px;
     text-align: center;
     border-right: 1px solid #1a1510;
     
@@ -61,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px; /* Sariyaana spacing fix icons & text */
+    gap: 35px; 
 }
 
 .nav-item a {
@@ -72,7 +71,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Icons & Hover Effects */
+
 .fa-solid, .fa-sharp {
     color: #9D7748;
     transition: color 0.3s ease;
@@ -82,7 +81,7 @@ body {
     color: skyblue;
 }
 
-/* Right Side Content Container */
+
 .content-area {
     flex: 1;
     display: flex;
@@ -90,7 +89,7 @@ body {
     gap: 60px;
 }
 
-/* Contact Information Block Layout */
+
 .contact-details {
     flex: 2;
 }
@@ -108,7 +107,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* Grid Layout for details entry list */
+
 .info-grid {
     display: flex;
     flex-direction: column;
@@ -145,7 +144,7 @@ body {
     color: #e5dfd3;
 }
 
-/* Right Side Image/Logo Container Styling */
+
 .contact-branding {
     flex: 1;
     display: flex;
@@ -170,7 +169,7 @@ body {
 
 .brand-tag {
     font-size: 13px;
-    color: #888;
+    color: #956F40;
     font-style: italic;
     letter-spacing: 0.5px;
 }

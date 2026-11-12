@@ -8,151 +8,166 @@ body {
     background-image: url(images96/bg.png);
     background-position: 130%;
     background-size: 100%;
-   
+
 
 }
-.logo img{
+
+.logo img {
     height: 150px;
     width: 250px;
     padding: 10px;
-    
+
 
 }
-.logo{
+
+.logo {
     display: flex;
-    gap: 50px;;
+    gap: 50px;
+    ;
     align-items: center;
 
 }
 
 
-    
 
-    
+
+
 
 
 .header {
     background-color: black;
 }
-.nav-bar  {
+
+.nav-bar {
     background-color: black;
-    padding: 20px;    
+    padding: 20px;
     display: inline-block;
     width: max-content;
 }
 
-.home{
+.home {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 30px;
-    
+
 }
-.gallery{
+
+.gallery {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 30px;
-    
+
 }
-.safari{
+
+.safari {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 30px;
-    
+
 }
-.about{
+
+.about {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 30px;
-    
+
 }
-.contact{
+
+.contact {
     padding-bottom: 10px;
     height: 15%;
     padding-top: 30px;
-    
+
 }
+
 .fa-solidfa-house {
     height: 55%;
     width: 55%;
 }
 
 
-.gallery img{
+.gallery img {
     height: 3%;
     width: 3%;
 }
-.safari img{
+
+.safari img {
     height: 3%;
     width: 3%;
 }
-.about img{
+
+.about img {
     height: 3%;
     width: 3%;
 }
-.contact img{
+
+.contact img {
     height: 3%;
     width: 3%;
 }
-.home1{
+
+.home1 {
     text-decoration: none;
     color: #9D7748;
-    
+
 }
-.gallery1{
-    text-decoration: none;
-    color: #9D7748;
-}
-.safari1{
-    text-decoration: none;
-    color:#9D7748;
-}
-.about1{
-    text-decoration: none;
-    color:#9D7748;
-}
-.contact1{
+
+.gallery1 {
     text-decoration: none;
     color: #9D7748;
 }
-.center img{
+
+.safari1 {
+    text-decoration: none;
+    color: #9D7748;
+}
+
+.about1 {
+    text-decoration: none;
+    color: #9D7748;
+}
+
+.contact1 {
+    text-decoration: none;
+    color: #9D7748;
+}
+
+.center img {
     height: 100%;
     width: 100%;
     float: right;
 
 }
-.contact1{
+
+.contact1 {
     margin-top: 20px;
-    
+
 }
-.fa-sharp:hover{
+
+.fa-sharp:hover {
     color: skyblue;
 }
 
-.fa-solid{
-    color:#9D7748;
+.fa-solid {
+    color: #9D7748;
 }
-.fa-solid:hover{
+
+.fa-solid:hover {
     color: skyblue;
 }
 
 .quote {
-    color:#A27C4D;
+    color: #A27C4D;
     text-transform: capitalize;
     font-size: xx-large;
     padding-left: 50px;
 }
+
 .home,
 .gallery,
 .safari,
 .about,
-.contact{
-    padding-top:25px;
-    padding-bottom:30px;
+.contact {
+    padding-top: 25px;
+    padding-bottom: 40px;
 }
-
-
-
-
-
-
-
